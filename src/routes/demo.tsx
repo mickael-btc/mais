@@ -20,7 +20,7 @@ function Demo() {
     }, []);
 
     return (
-        <div className="bg-red-500 h-screen w-screen">
+        <div className="bg-white h-screen w-screen">
             {image && <img src={image} />}
         </div>
     );
